@@ -42,7 +42,7 @@ ORDER BY PrimeiroNome;
 
 
 -- 11-
-SELECT Nome FROM Filmes WHERE FilmesGenero = 'Mistério';
+SELECT Nome FROM Filmes WHERE FilmesGenero = 'MistÃ©rio';
 
 
 -- 12-
