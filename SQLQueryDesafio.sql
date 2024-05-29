@@ -29,17 +29,18 @@ GROUP BY Ano
 ORDER BY Quantidade DESC;
 
 
+
+
+
 -- 8-
-SELECT PrimeiroNome, UltimoNome FROM Atores;
-
-
--- 9-
 SELECT PrimeiroNome, UltimoNome FROM Atores WHERE Genero = 'M'
 ORDER BY PrimeiroNome;
--- 10-
+-- 9-
 SELECT PrimeiroNome, UltimoNome FROM Atores WHERE Genero = 'F'
 ORDER BY PrimeiroNome;
 
+-- 10
+SELECT Nome, Genero FROM Filmes -- Banco de dados.
 
 -- 11-
 SELECT Nome FROM Filmes WHERE FilmesGenero = 'Mistério';
